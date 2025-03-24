@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maple Font 等宽字体效果展示</title>
+    <link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css' />
+
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        code, pre {
+            background-color: #f4f4f4;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+            display: block; /* Make pre and code blocks take full width */
+            overflow-x: auto; /* Add horizontal scroll if content overflows */
+            font-family: 'Maple Mono SC', monospace; /* 使用 Maple Font */
+        }
+
+        pre {
+            white-space: pre-wrap; /* Wrap long lines in <pre> tags */
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            padding: 5px;
+            font-size: 14px;
+            font-family: 'Maple Mono SC', monospace; /* 使用 Maple Font */
+        }
+
+        /* 覆盖 body 里的 monospace 设置 */
+        body * {
+            font-family: sans-serif !important; /* 强制应用非等宽字体 */
+        }
+        body pre, body code, body textarea {
+            font-family: 'Maple Mono SC', monospace !important;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>Maple Font 等宽字体效果展示</h1>
+
+<section>
+    <h2>代码示例 (code 标签)</h2>
+    <code>
+        int main() {<br>
+        printf("Hello, world!\n");<br>
+        return 0;<br>
+        }
+    </code>
+</section>
+
+<section>
+    <h2>预格式化文本 (pre 标签)</h2>
+    <pre>
+            function helloWorld() {
+                console.log("Hello, world!");
+            }
+
+            helloWorld();
+        </pre>
+</section>
+
+<section>
+    <h2>文本输入框 (textarea 标签)</h2>
+        <textarea>
+This is a textarea with monospace font.
+Use it to test different character widths.
+For example:
+iiiiiiiiiiiiiiii
+WWWWWWWWWWWWWWWW
+        </textarea>
+</section>
+
+<section>
+    <h2>内联代码示例</h2>
+    <p>你可以使用 <code>console.log()</code> 来在 JavaScript 中打印信息。</p>
+</section>
+
+<section>
+    <h2>表格示例</h2>
+    <pre>
+            | Column 1 | Column 2 | Column 3 |
+            | -------- | -------- | -------- |
+            | Value A  | Value B  | Value C  |
+            | Value X  | Value Y  | Value Z  |
+        </pre>
+</section>
+
+</body>
+</html>
