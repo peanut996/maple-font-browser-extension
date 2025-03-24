@@ -1,7 +1,6 @@
 
 // Function to inject the stylesheet link
 function injectStylesheet() {
-    console.log("Maple Mono CN Font Replacer content script loaded.");
     const link = document.createElement("link");
     link.rel = "stylesheet";
     link.href = "https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css";
