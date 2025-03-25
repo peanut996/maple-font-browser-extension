@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "等宽字体效果展示插件",
+  "name": "Maple Mono 字体替换插件",
   "version": "1.0",
-  "description": "展示等宽字体的效果",
+  "description": "将网页上的等宽字体替换为 Maple Mono，提供更舒适的编程和阅读体验。",
   "permissions": [
     "activeTab",
     "scripting"
