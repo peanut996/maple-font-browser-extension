@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="128" height="128" fill="#F0F0F0" />  <!-- 背景色，可以修改 -->
+
+    <!-- "M" 字形，代表 Maple Mono -->
+    <path d="M20 30 L20 98 L35 98 L35 50 L64 50 L64 98 L79 98 L79 30 L64 30 L64 78 L35 78 L35 30 L20 30 Z" fill="#333333"/> <!-- 深色，可以修改 -->
+
+    <!-- "M" 字形，代表 Maple Mono -->
+    <path d="M85 30 L85 98 L100 98 L100 50 L128 50 L128 98 L113 98 L113 30 L128 30 L128 78 L100 78 L100 30 L85 30 Z" fill="#333333"/> <!-- 深色，可以修改 -->
+
+    <!-- 小方块，代表等宽特性 -->
+    <rect x="20" y="105" width="15" height="15" fill="#333333"/>
+    <rect x="37" y="105" width="15" height="15" fill="#333333"/>
+    <rect x="54" y="105" width="15" height="15" fill="#333333"/>
+    <rect x="71" y="105" width="15" height="15" fill="#333333"/>
+    <rect x="88" y="105" width="15" height="15" fill="#333333"/>
+    <rect x="105" y="105" width="15" height="15" fill="#333333"/>
+
+</svg>
