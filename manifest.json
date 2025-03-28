@@ -3,10 +3,7 @@
   "name": "Maple Mono 字体替换插件",
   "version": "1.0",
   "description": "将网页上的等宽字体替换为 Maple Mono，提供更舒适的编程和阅读体验。",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
+  "permissions": [],
   "action": {
     "default_popup": "popup.html"
   },
